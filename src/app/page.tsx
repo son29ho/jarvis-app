@@ -1,4 +1,4 @@
-'client';
+'use client';
 
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 type Message = {
   role: 'user' | 'assistant';
   content: string;
-};
+};dir
 
 export default function Home() {
   const [messages, setMessages] = useState<Message[]>([
