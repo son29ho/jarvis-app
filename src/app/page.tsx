@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 type Message = {
   role: 'user' | 'assistant';
   content: string;
-};dir
+};
 
 export default function Home() {
   const [messages, setMessages] = useState<Message[]>([
